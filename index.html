@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A Parent Company For All Things Forex">
+        <title>Moon Corporation | Forex Company</title>
+        <link rel="shortcut icon" href="assets\favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="moonCorp.css">
+        <script src="scripts/formscript.js"></script>
+    </head>
+<body>
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo-container">
+            <a href="index.html"><img class="logo" src="assets\moonCorpLogo.png" alt=""></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about-us">ABOUT</a></li>
+            <li><a href="#subsidiaries">SUBSIDIARIES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+
+    <section class="intro-section">
+        <div class="centered-title">MOON CORP</div>
+        <div class="centered-title-slogan">IF YOU LOVE INVESTMENT <br> YOU'LL LOVE US</div>
+        <div class="intro-btn-container">
+            <a class="centered-title-button" href="#subsidiaries">Enroll Now</a>
+            <a class="centered-title-button2" href="#about-us">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about-us" class="about-section">
+        <div class="about-img-container">
+            <img class="about-img" src="assets\proBlackGuy.jpg" alt="Man sitting at a desk using a computer">
+        </div>
+        <div class="about-text-container">
+            <h2 class="about-title">ABOUT US</h2>
+            <p class="about-text">
+                Moon Corporation is a consortium based of investments, forex trading education to give aspiring
+                entrepreneurs financial freedom and also leading in technological aspects such as web and app
+                development and financial systems for the ease of running your organization effectively.
+                <br><br>
+                Founders: Brian Omondi & Habshi Pedro
+            </p>
+        </div>
+    </section>
+
+    <section class="subsidiary-section" id="subsidiaries">
+        <div class="card-container">
+            <div class="card">
+                <a href="moonfx/index.html"><img class="card-img" src="assets\moonFXLogo.jpeg" alt="MoonFX Academy Logo"></a>
+                <h3 class="card-title">MOON-FX ACADEMY</h3>
+                <hr class="card-line">
+                <p class="card-text">WE TEACH YOU HOW TO TRADE THE FOREX MARKET</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-container" id="contact">
+        <div class="contact-text">
+            <h2>CONTACT US</h2>
+            <p>Is there anything that our team can assist you with? If so, please reach out. Our team 
+                is happy to answer any inquires, make clarifications and give you the information you need.</p>
+                <br>
+            <p id="confirmMsg"></p>
+        </div>
+        <div class="contact-form">
+            <h2>SEND US A MESSAGE</h2>
+            <form onsubmit="return mooncorpAjaxGo()" method="POST">
+                <input class="contact-form-input" type="text" id="contact-name" placeholder="Your Name" required>
+                <input class="contact-form-input" type="email" id="contact-email" placeholder="Your Email" required>
+                <input class="contact-form-input" type="text" id="contact-subject" placeholder="Subject" required>
+                <textarea class="contact-form-textarea" id="contact-message" cols="30" rows="5" placeholder="Your Message...(Keep It Short)" required></textarea>
+                <input class="contact-form-submit" type="submit" value="SEND">
+            </form>
+        </div>
+    </section>
+
+    <section class="disclaimer-section" id="disclaimer">
+        <h2>RISK DISCLOSURE</h2>
+        <p>Moon Corporation, their staff and all related business affiliates are not responsible for any outcomes; 
+            whether they be gains, washes, or losses as a result of any moves you personally make within the Forex 
+            markets. We are not licensed financial advisors and so only provide educated opinions and perspectives.
+        </p>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h4 class="footer-title">CONTACT NUMBER DETAILS</h4>
+                <h5 class="footer-text">Call Us At:</h5>
+                <ul class="contact-list">
+                    <li class="contact-item">+254 740 352301</li>
+                    <li class="contact-item">+254 793 592584</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4 class="footer-title">USEFUL LINKS</h4>
+                <ul class="useful-list">
+                    <li class="useful-list-item"><a href="index.html">HOME</a></li>
+                    <li class="useful-list-item"><a href="#about-us">ABOUT</a></li>
+                    <li class="useful-list-item"><a href="#subsidiaries">SUBSIDIARIES</a></li>
+                    <li class="useful-list-item"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4 class="footer-title">CONTACT EMAIL DETAILS</h4>
+                <h5 class="footer-text">Email Us At:</h5>
+                <ul class="contact-list">
+                    <li class="contact-item"><a href="mailto:habshipedro@mooncorp.ltd">habshipedro@mooncorp.ltd</a></li>
+                    <li class="contact-item"><a href="mailto:brianomondi@mooncorp.ltd">brianomondi@mooncorp.ltd</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <p>Visit Our Instagram</p><a href="https://www.instagram.com/moonfx_001" target="_blank" class="fa fa-instagram"></a>
+        </div>
+
+        <div class="footer-copyright">Copyright © 2021 Moon Corporation | Powered By <a target="_blank" href="https:/jeff-mututo.github.io">Jeff Mututo</a></div>
+    </footer>
+</body>
+</html>

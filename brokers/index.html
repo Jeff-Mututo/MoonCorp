@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Take A Look At The Brokers We Trust And Use Ourselves">
+    <title>Trusted Brokers</title>
+    <link rel="shortcut icon" href="..\assets\favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="brokers.css">
+</head>
+<body>
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo-container">
+            <a href="../index.html"><img class="logo" src="..\assets\moonCorpLogo.png" alt=""></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../moonfx/index.html">HOME</a></li>
+            <li><a href="../moonfx/index.html#about-us">ABOUT</a></li>
+            <li><a href="../moonfx/index.html#events">EVENTS</a></li>
+            <li><a href="../brokers/index.html"><u>BROKERS</u></a></li>
+            <li><a href="../faqs/index.html">FAQS</a></li>
+            <li><a href="../contact/index.html">CONTACT</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+
+    <section class="ticker-tape">
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+            "symbols": [
+            {
+            "proName": "FX_IDC:EURUSD",
+            "title": "EUR/USD"
+            },
+            {
+            "description": "GBP/JPY",
+            "proName": "OANDA:GBPJPY"
+            },
+            {
+            "description": "USD/CAD",
+            "proName": "OANDA:USDCAD"
+            },
+            {
+            "description": "GBP/AUD",
+            "proName": "OANDA:GBPAUD"
+            }
+            ],
+            "showSymbolLogo": true,
+            "colorTheme": "dark",
+            "isTransparent": false,
+            "displayMode": "adaptive",
+            "locale": "en"
+            }
+        </script>
+        </div>
+        <!-- TradingView Widget END -->
+    </section>
+
+    <h1 class="page-title">TRUSTED BROKERS</h1>
+
+    <hr class="title-line">
+
+    <section class="broker-section">
+        <div class="broker-img-container">
+            <img class="broker-img" src="../assets/scopeMarkets.png" alt="Scope Markets Logo">
+        </div>
+        <div class="broker-text-container">
+            <h2 class="broker-title">SCFM Limited</h2>
+            <p class="broker-text">
+                SCFM Limited is a globally recognized non-dealing online foreign exchange broker
+                licensed and regulated by the Capital Markets Authority under the trading name, "Scope Markets"
+                in Kenya.
+                <br><br>
+                Scope Markets gives you the Safer, Smarter and Faster way to trade gloabl shares, Forex, 
+                Indices and Commodities
+                <br><br>
+                <a href="http://bit.ly/moonfxscopemarketssignup" target="_blank">Start A Trading Account</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h4 class="footer-title">CONTACT NUMBER DETAILS</h4>
+                <h5 class="footer-text">Call Us At:</h5>
+                <ul class="contact-list">
+                    <li class="contact-item">+254 740 352301</li>
+                    <li class="contact-item">+254 793 592584</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4 class="footer-title2">USEFUL LINKS</h4>
+                <ul class="useful-list">
+                    <li class="useful-list-item"><a href="../moonfx/index.html">HOME</a></li>
+                    <li class="useful-list-item"><a href="../moonfx/index.html#about-us">ABOUT</a></li>
+                    <li class="useful-list-item"><a href="../moonfx/index.html#events">EVENTS</a></li>
+                    <li class="useful-list-item"><a href="../brokers/index.html">BROKERS</a></li>
+                    <li class="useful-list-item"><a href="../faqs/index.html">FAQS</a></li>
+                    <li class="useful-list-item"><a href="../contact/index.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4 class="footer-title">CONTACT EMAIL DETAILS</h4>
+                <h5 class="footer-text">Email Us At:</h5>
+                <ul class="contact-list">
+                    <li class="contact-item"><a href="mailto:habshipedro@mooncorp.ltd">habshipedro@mooncorp.ltd</a></li>
+                    <li class="contact-item"><a href="mailto:brianomondi@mooncorp.ltd">brianomondi@mooncorp.ltd</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <p>Visit Our Instagram</p><a href="https://www.instagram.com/moonfx_001" target="_blank" class="fa fa-instagram"></a>
+        </div>
+
+        <div class="footer-copyright">Copyright © 2021 Moon Corporation | Powered By <a target="_blank" href="https:/jeff-mututo.github.io">Jeff Mututo</a></div>
+    </footer>
+</body>
+</html>
