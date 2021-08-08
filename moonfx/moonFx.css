@@ -404,6 +404,85 @@ nav .icon-burger .line {
 }
 
 /**/
+/*Trading Course Styling*/
+/**/
+
+.trading-course-section {
+    margin: 124px 0px 0px 0px;
+    padding: 0 70px 20px 70px;
+}
+
+.page-title {
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    background:#f5f5f5;
+    padding:20px 30px;
+    overflow:hidden;
+    border-radius:50px;
+    box-shadow:5px 10px 5px #ccc;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs label {
+    margin: 0px 30px;
+    color:#888;
+    font-weight:600;
+    cursor:pointer;
+    font-size:18px;
+    text-transform:uppercase;
+    outline:none;
+}
+
+.tabs .tab-indicator {
+    width: 115%;
+    height: 5px;
+    background-color: #04042C;
+    display: none;
+}
+
+.tabs .tab-content {
+    width: auto;
+    height: auto;
+    order: 1;
+    display: none;
+    padding: 10px 5px 10px 30px;
+}
+
+.tabs .tab-content h2 {
+    font-size: 24px;
+}
+
+.tabs input[type="radio"]:checked + label + .tab-content {
+    display: block;
+    transition: 100ms ease-in;
+}
+
+.tabs input[type="radio"]:checked + label {
+    color: #04042C;
+    transition: 100ms ease-in;
+}
+
+.tabs input[type="radio"]:checked + label > .tab-indicator {
+    display: block;
+    transition: 100ms ease-in;
+}
+
+/*--------------------------*/
+
+
+
+/**/
 /*Events Section Styling*/
 /**/
 

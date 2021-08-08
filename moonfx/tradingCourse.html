@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Reach Out To Us With Any Queries You Have">
-    <title>Contact Us</title>
+    <meta name="description" content="Learn Everything You Need To Start Investing And Make Money At The Forex Academy">
+    <title>MoonFx Trading Academy</title>
     <link rel="shortcut icon" href="..\assets\favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="contact.css">
-    <script src="../scripts/formscript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="moonFx.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav>
         <input id="nav-toggle" type="checkbox">
         <div class="logo-container">
-            <a href="../index.html"><img class="logo" src="..\assets\moonCorpLogo.png" alt=""></a>
+            <a href="../index.html"><img class="logo" src="../assets/moonCorpLogo.png" alt=""></a>
         </div>
         <ul class="nav-links">
-            <li><a href="../moonfx/index.html">HOME</a></li>
-            <li><a href="../moonfx/index.html#about-us">ABOUT</a></li>
-            <li><a href="../moonfx/index.html#events">EVENTS</a></li>
+            <li><a href="../moonfx/index.html"><u>HOME</u></a></li>
+            <li><a href="#about-us">ABOUT</a></li>
+            <li><a href="#events">EVENTS</a></li>
             <li><a href="../brokers/index.html">BROKERS</a></li>
             <li><a href="../faqs/index.html">FAQS</a></li>
-            <li><a href="../contact/index.html"><u>CONTACT</u></a></li>
+            <li><a href="../contact/index.html">CONTACT</a></li>
         </ul>
         <label for="nav-toggle" class="icon-burger">
             <div class="line"></div>
@@ -35,25 +38,41 @@
         </label>
     </nav>
 
-    <section class="contact-container" id="contact">
-        <div class="contact-text">
-            <h2>CONTACT US</h2>
-            <p>Is there anything that our team can assist you with? If so, please reach out. Our team 
-                is happy to answer any inquires, make clarifications and give you the information you need.</p>
-                <br>
-            <p id="confirmMsg"></p>
+    <section class="trading-course-section">
+        <div class="title-section">
+            <h1 class="page-title">MoonFx Trading Academy</h1>
+            <hr class="title-line">
+            <br>
         </div>
-        <div class="contact-form">
-            <h2>SEND US A MESSAGE</h2>
-            <form onsubmit="return contactAjaxGo()" method="POST">
-                <input class="contact-form-input" type="text" id="contact-name" placeholder="Your Name" required>
-                <input class="contact-form-input" type="email" id="contact-email" placeholder="Your Email" required>
-                <input class="contact-form-input" type="text" id="contact-subject" placeholder="Subject" required>
-                <textarea class="contact-form-textarea" id="contact-message" cols="30" rows="5" placeholder="Your Message...(Keep It Short)" required></textarea>
-                <input class="contact-form-submit" type="submit" value="SEND">
-            </form>
+
+        <div class="tabs">
+            <input type="radio" name="course-showcase" id="tab-overview" checked="checked">
+            <label for="tab-overview">
+                <i class="fa fa-bookmark"></i> Overview
+                <div class="tab-indicator"></div>
+            </label>
+            <div class="tab-content">
+                <h2>This is Overview section</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error neque saepe commodi blanditiis fugiat nisi aliquam ratione porro quibusdam in, eveniet accusantium cumque. Dolore officia reprehenderit perferendis quod libero omnis.</p>
+            </div>
+
+            <input type="radio" name="course-showcase" id="tab-curriculum">
+            <label for="tab-curriculum">
+                <i class="fa fa-cube"></i> Curriculum
+                <div class="tab-indicator"></div>
+            </label>
+            <div class="tab-content">
+                <details>
+                    <summary>
+                        
+                    </summary>
+                </details>
+            </div>
         </div>
     </section>
+
+
 
     <footer>
         <div class="footer-container">
@@ -66,11 +85,11 @@
                 </ul>
             </div>
             <div class="footer-item">
-                <h4 class="footer-title">USEFUL LINKS</h4>
+                <h4 class="footer-title2">USEFUL LINKS</h4>
                 <ul class="useful-list">
                     <li class="useful-list-item"><a href="../moonfx/index.html">HOME</a></li>
-                    <li class="useful-list-item"><a href="../moonfx/index.html#about-us">ABOUT</a></li>
-                    <li class="useful-list-item"><a href="../moonfx/index.html#events">EVENTS</a></li>
+                    <li class="useful-list-item"><a href="#about-us">ABOUT</a></li>
+                    <li class="useful-list-item"><a href="#events">EVENTS</a></li>
                     <li class="useful-list-item"><a href="../brokers/index.html">BROKERS</a></li>
                     <li class="useful-list-item"><a href="../faqs/index.html">FAQS</a></li>
                     <li class="useful-list-item"><a href="../contact/index.html">CONTACT</a></li>
