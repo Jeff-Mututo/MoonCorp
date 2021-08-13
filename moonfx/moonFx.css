@@ -420,6 +420,12 @@ nav .icon-burger .line {
     font-weight: 500;
 }
 
+.tab-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .tabs {
     display: flex;
     flex-wrap: wrap;
@@ -428,6 +434,7 @@ nav .icon-burger .line {
     overflow:hidden;
     border-radius:50px;
     box-shadow:5px 10px 5px #ccc;
+    max-width: 900px;
 }
 
 .tabs input[type="radio"] {
@@ -463,6 +470,20 @@ nav .icon-burger .line {
     font-size: 24px;
 }
 
+.tabs .tab-content details summary {
+    font-size: 22px;
+}
+
+.tabs .tab-content details ul {
+    list-style-type: none;
+}
+
+.tabs .tab-content details ul li {
+    border-bottom: 1px solid;
+    font-size: 15px;
+    padding: 11px 13px 11px 13px;
+}
+
 .tabs input[type="radio"]:checked + label + .tab-content {
     display: block;
     transition: 100ms ease-in;
@@ -477,10 +498,6 @@ nav .icon-burger .line {
     display: block;
     transition: 100ms ease-in;
 }
-
-/*--------------------------*/
-
-
 
 /**/
 /*Events Section Styling*/
